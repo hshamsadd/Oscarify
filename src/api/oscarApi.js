@@ -5,8 +5,7 @@ export async function fetchOscarData() {
   return cachedFetch(
     "oscar_data",
     async () => {
-      const response = await fetch(`${OSCARS_DATA}`);
-      return await response.json();
+      return OSCARS_DATA;
     },
     10080
   ); // Cache for 1 week
