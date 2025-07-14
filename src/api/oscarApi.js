@@ -8,5 +8,5 @@ export async function fetchOscarData() {
       return OSCARS_DATA;
     },
     10080
-  ); // Cache for 1 week
+  );
 }

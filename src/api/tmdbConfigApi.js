@@ -11,5 +11,5 @@ export async function fetchTmdbConfig() {
       return await response.json();
     },
     10080
-  ); // Cache for 1 week
+  );
 }

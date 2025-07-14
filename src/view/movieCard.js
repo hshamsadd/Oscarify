@@ -58,7 +58,6 @@ function generateCardHTML(oscarInfo, tmdbInfo, tmdbConfig, additionalWins) {
   `;
 }
 
-// Keep all existing helper functions exactly as they are
 function getPosterPath(tmdbInfo, tmdbConfig) {
   return tmdbInfo.poster_path
     ? `${tmdbConfig.images.secure_base_url}w300${tmdbInfo.poster_path}`

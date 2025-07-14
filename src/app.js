@@ -4,7 +4,6 @@ import { fetchMovieDetails } from "./api/tmdbMovieApi.js";
 import { oscarData, tmdbConfig } from "./constants.js";
 import { yearFilter, categoryFilter, searchBtn } from "./view/domElements.js";
 import { setupTheme } from "./utils/themeController.js";
-
 import { setupFilters, checkFilters } from "./view/filters.js";
 import { createMovieCard } from "./view/movieCard.js";
 import { showLoading, hideLoading, showError } from "./view/notifications.js";

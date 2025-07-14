@@ -23,5 +23,5 @@ export async function fetchMovieDetails(imdbId) {
       }
     },
     10080
-  ); // Cache for 1 week
+  );
 }
